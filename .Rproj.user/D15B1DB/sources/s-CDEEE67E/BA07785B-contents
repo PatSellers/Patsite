@@ -1,0 +1,15 @@
+---
+title: CV
+author: Pat Sellers
+date: '2018-01-18'
+slug: cv
+categories:
+  - R
+tags: []
+---
+
+```{r cars}
+summary(cars)
+```
+
+
