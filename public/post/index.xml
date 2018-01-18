@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Pat Sellers&#39; site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Dec 2016 21:49:57 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Test1a</title>
+      <link>/2018/01/15/test1/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/01/15/test1/</guid>
+      <description>I hope that this test works.</description>
+    </item>
     
     <item>
       <title>A Plain Markdown Post</title>
