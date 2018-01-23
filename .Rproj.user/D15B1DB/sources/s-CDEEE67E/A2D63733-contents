@@ -14,4 +14,5 @@ I hope that this test works.
 
 ``` {r cars}
 summary(cars)
+plot(cars$speed,cars$dist)
 ```
