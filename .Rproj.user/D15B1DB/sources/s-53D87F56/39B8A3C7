@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1524602485586.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "305095903",
+    "id" : "39B8A3C7",
+    "lastKnownWriteTime" : 1524602535,
+    "last_content_update" : 1524602535688,
+    "path" : "C:/Users/pasellers/Dropbox (Davidson College)/Data Future/Patsite/config.toml",
+    "project_path" : "config.toml",
+    "properties" : {
+        "cursorPosition" : "15,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}

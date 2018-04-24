@@ -1,0 +1,4 @@
+"0","sliderInput(""hp"", ""Horsepower"","
+"0","            min = min(mtcars$hp), max = max(mtcars$hp),"
+"0","            value = range(mtcars$hp)"
+"0","            )"

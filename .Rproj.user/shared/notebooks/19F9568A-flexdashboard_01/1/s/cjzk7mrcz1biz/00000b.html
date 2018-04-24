@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<link href="shared/selectize/css/selectize.bootstrap3.css" rel="stylesheet" />
+<!--[if lt IE 9]>
+<script src="shared/selectize/js/es5-shim.min.js"></script>
+<![endif]-->
+<script src="shared/selectize/js/selectize.min.js"></script>
+
+</head>
+<body style="background-color:white;">
+<div class="form-group shiny-input-container">
+  <label class="control-label" for="y">Y-axis:</label>
+  <div>
+    <select id="y"><option value="imdb_rating">IMDB rating</option>
+<option value="imdb_num_votes">IMDB number of votes</option>
+<option value="critics_score">Critics Score</option>
+<option value="audience_score" selected>Audience Score</option>
+<option value="runtime">Runtime</option></select>
+    <script type="application/json" data-for="y" data-nonempty="">{}</script>
+  </div>
+</div>
+</body>
+</html>

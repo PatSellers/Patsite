@@ -1,0 +1,21 @@
+{
+    "debugBreakpointsState" : {
+        "breakpoints" : [
+            {
+                "editor_line_number" : 33,
+                "editor_state" : 1,
+                "function_name" : "toplevel",
+                "function_steps" : "",
+                "id" : 0,
+                "is_package_breakpoint" : false,
+                "is_pending_debug_completion" : false,
+                "line_number" : 33,
+                "needs_updated_steps" : false,
+                "package_name" : "",
+                "path" : "C:/Users/pasellers/Dropbox (Davidson College)/Data Future/rstudioconf-2018-intro-shiny-rmarkdown/06-design-ui/apps/movies/movies_11.R",
+                "state" : 1,
+                "type" : 1
+            }
+        ]
+    }
+}

@@ -1,0 +1,107 @@
+---
+title: "flexdashboard + shiny"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    theme: united
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(shiny)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Scatterplot of weight and miles per gallon
+
+```{r}
+load("movies.Rdata")
+mpg_subset <- reactive({
+  mtcars %>%
+    filter(
+      hp >= input$hp[1],
+      hp <= input$hp[2],
+      cyl %in% input$cyl
+    )
+})
+
+renderPlot({
+  ggplot(mpg_subset(), aes(x = wt, y = mpg, color = factor(cyl))) +
+    geom_point()
+})
+```
+
+### Histogram of weight
+
+```{r}
+renderPlot({
+  
+  ggplot(mpg_subset(), aes(x = wt)) +
+    geom_histogram(binwidth = 0.25)
+
+})
+```
+
+### Create scatterplot object the plotOutput function is expecting --
+
+```{r}
+renderPlot({
+  ggplot(data = movies, aes_string(x = input$x, y = input$y)) +
+    geom_point()
+})
+
+
+```
+
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Inputs
+
+```{r}
+# Select variable for y-axis ----------------------------------
+selectInput("y","Y-axis:",
+            choices = c("IMDB rating" = "imdb_rating", 
+                        "IMDB number of votes" = "imdb_num_votes", 
+                        "Critics Score" = "critics_score", 
+                        "Audience Score" = "audience_score", 
+                        "Runtime" = "runtime"), 
+            selected = "audience_score")
+
+# Select variable for x-axis ----------------------------------
+selectInput(inputId = "x", 
+            label = "X-axis:",
+            choices = c("IMDB rating" = "imdb_rating", 
+                        "IMDB number of votes" = "imdb_num_votes", 
+                        "Critics Score" = "critics_score", 
+                        "Audience Score" = "audience_score", 
+                        "Runtime" = "runtime"), 
+            selected = "critics_score")
+
+checkboxGroupInput("cyl", "Cylinders", choices = c("4", "6", "8"),
+                   selected = c("4", "6", "8"), inline = TRUE
+                   )
+
+sliderInput("hp", "Horsepower",
+            min = min(mtcars$hp), max = max(mtcars$hp),
+            value = range(mtcars$hp)
+            )
+```
+
+### Histogram of cylinder
+
+```{r}
+renderPlot({
+  
+  ggplot(mpg_subset(), aes(x = cyl)) +
+    geom_histogram(binwidth = 0.25)
+
+})
+```
+

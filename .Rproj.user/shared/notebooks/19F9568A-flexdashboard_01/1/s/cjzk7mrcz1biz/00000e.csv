@@ -1,0 +1,3 @@
+"0","checkboxGroupInput(""cyl"", ""Cylinders"", choices = c(""4"", ""6"", ""8""),"
+"0","                   selected = c(""4"", ""6"", ""8""), inline = TRUE"
+"0","                   )"

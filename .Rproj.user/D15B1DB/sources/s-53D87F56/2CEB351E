@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1517528197402.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2803625349",
+    "id" : "2CEB351E",
+    "lastKnownWriteTime" : 1524602331,
+    "last_content_update" : 1524602331202,
+    "path" : "C:/Users/pasellers/Dropbox (Davidson College)/Data Future/rstudioconf-2018-intro-shiny-rmarkdown/07-dashboards/apps/dashboard/flexdashboard_01.Rmd",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "14,0",
+        "last_setup_crc32" : "53D87F568f284404",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

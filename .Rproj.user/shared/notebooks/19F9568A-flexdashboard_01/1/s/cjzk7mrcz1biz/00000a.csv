@@ -1,0 +1,8 @@
+"0","# Select variable for y-axis ----------------------------------"
+"0","selectInput(""y"",""Y-axis:"","
+"0","            choices = c(""IMDB rating"" = ""imdb_rating"", "
+"0","                        ""IMDB number of votes"" = ""imdb_num_votes"", "
+"0","                        ""Critics Score"" = ""critics_score"", "
+"0","                        ""Audience Score"" = ""audience_score"", "
+"0","                        ""Runtime"" = ""runtime""), "
+"0","            selected = ""audience_score"")"

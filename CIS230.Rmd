@@ -1,0 +1,124 @@
+---
+title: "CIS230"
+author: "Pat Sellers"
+date: "January 24, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Seminar in Applied Research Design and Data Analysis
+### CIS 230
+###MWF, 10:30 – 11:20
+###CHA 1045
+
+In this course students will work with an external partner on an applied research project and explore how that work can strengthen and deepen their liberal arts education. The projects will vary in nature: helping the partner figure out questions to ask about a product, topic, or market; collecting data for a particular project or question; organizing or cleaning messy data; analyzing data with a range of statistical methods; and/or presenting the results of analysis through visualization or other methods. 
+
+One goal of the course is teaching students how to learn on their own and respond nimbly to unexpected needs and challenges – circumstances which will inevitably arise while working on the external partner’s project. A second goal is for students to learn to improve their ability to collaborate with their team and the external partner. A third course goal is to help students understand and experience how core attributes of a liberal arts education – critical and creative thinking, intellectual dexterity, appreciate of competing viewpoints, effective communication – can be applied, strengthened, and deepened in their work beyond campus. 
+
+Teams of 3-4 students will work on each partner’s project. This work will draw upon students’ existing skills and knowledge and require students to learn new abilities. By the end of the semester, each student team will produce a concrete product for the external partner. The external partner projects will require students to use the core attributes of a liberal arts education in multiple ways. Two assignments will require students to reflect on this interaction between the project work and a liberal arts education. These reflections will deepen the students’ learning, while helping the College understand how these applied research experiences can improve a liberal arts education.
+
+Learning Objectives
+
+Students in this course will achieve the following objectives:
+•	Articulate the nature and benefits of a liberal arts education
+•	Learn how to learn new abilities and skills independently
+•	Collaborate on and manage complex tasks
+•	Bring a team project to completion, meeting the articulated expectations of the course instructor and the external partner
+
+Prerequisites
+
+While no specific courses are required as prerequisites, students enrolling in the seminar should have some prior experience in designing data-oriented research projects, creating data sets, conducting statistical analysis, or visualizing data.
+
+Assignments
+
+Students will complete the following assignments, with the percentage of the overall grade in parentheses.
+•	Review literature on external partner’s project (5%)
+o	After the initial meeting with the external partner, each team member will write a brief literature review identifying existing findings and insights related to the project.
+•	Learn a new skill or ability (15%)
+o	Soon after the start of the semester, each student will identify (1) a new skill or ability to learn that directly assists the project (i.e., a statistical technique, a programming tool, a visualization program, etc.), and (2) an avenue for that learning (i.e., Lynda.com, an online course, etc.). The student and instructor will jointly develop a mini-syllabus for the learning, including a timeline and evaluations. This assignment will be graded pass/fail. The student will then begin the learning and continue throughout the semester.
+•	Reflections on the application of liberal arts (20%)
+o	At the middle and end of the semester, each student will complete an essay reflecting on how other Davidson classes have (or have not) prepared the student for the project work, and whether/how the project requires the student to engage and deepen core liberal arts values, perspectives, and skills (as articulated in assigned readings and students’ own experiences). Each paper is worth 10% of the overall grade.
+•	Meeting milestones (5%)
+o	Each team will specify at least four project milestones to complete over the semester. The instructor will then evaluate the team overall on meeting these milestones (with each member of a team receiving the same grade).
+•	Final project (40%)
+o	The instructor and external partner will evaluate each team’s final product, which will include a formal presentation to the partner. Each member of the team will receive the same grade.
+•	Individual participation (15%)
+o	The instructor will evaluate each student’s participation and effort throughout the semester. Components include feedback from attendance, participation, and peer evaluations. For the latter, at two points during the semester, each student will complete an evaluation of the work of all team members (including that of the student doing the evaluation). Each student will also be evaluated on the quality of that evaluation.
+
+Assignment of Letter Grades
+
+I will assign numerical grades for all assignments. Your overall course grade will be a weighted average of all of your assignments based on the percentages described above.  Failure to complete an assignment will result in a numerical grade of 0.  For the “learn a new skill” assignment, passing will earn a grade of 95, and failing will earn a grade of 55. I will assign final letter grades for the course as follows:
+
+A	>=93		C+	>=77
+A-	>=90		C	>=73
+B+	>=87		C-	>=70
+B	>=83		D	>=60
+B-	>=80		F	<60
+
+Policies and expectations
+
+This course does not have any required text for purchase; all material is available (for free) online. 
+
+If you are unable to attend class or meetings because of a formally sanctioned College event, I will make accommodations provided that you provide proper documentation no less than one week prior to the event. If you know you are going to miss class or meetings for officially sanctioned events, please see me as soon as possible.
+
+All work that you turn in is pledged work.   Please familiarize yourself with the Davidson College Honor Code.  If you have any questions, especially about what does and does not constitute plagiarism, please ask me as soon as possible, ideally before you begin working on the assignment. 
+
+The College welcomes requests for accommodations related to disability and will grant those that are determined to be reasonable and maintain the integrity of a program or curriculum. To make such a request or to begin a conversation about a possible request, please contact the Office of Academic Access and Disability Resources, which is located in the Center for Teaching and Learning in the E.H. Little Library: Beth Bleil, Director, bebleil@davidson.edu, 704-894-2129; or Alysen Beaty, Assistant Director, albeaty@davidson.edu, 704-894-2939. It is best to submit accommodation requests within the drop/add period; however, requests can be made at any time in the semester. Please keep in mind that accommodations are not retroactive.
+
+Also, please review the entire syllabus carefully during the first week of class.  If any parts conflict with a major religious holiday for your faith, then please let me know.  I will make every effort to make the necessary accommodations.
+
+Schedule
+
+Date	Topic	Assignment
+Jan. 17 – 1	Introduction	
+Jan. 19	Choosing a project and building a team	Strengthsfinder quiz; The Power of Introverts
+Jan. 22 – 2	Project life cycles and the client experience (Mike Lee)	Mike Lee bio; “Behind the Curtain of Consulting”; During this week, initial team meetings with external partners (one hour outside of scheduled class time).
+Jan. 24	Project management	Lynda.com course on project management
+Jan. 26	Role of the liberal arts	WashPost; Cronin; Chou; Kiley; Stanford 1, 2, 3; Frank; Wellmon
+Jan. 29 – 3	Project plan and personal syllabi	Literature review due
+Jan. 31	No class
+Feb. 2	No class
+Feb. 5 – 4	Critique and improve project plans	First draft of project plan, personal syllabi due (by 7 am, Sun., Feb. 4)
+Feb. 7	How can a liberal arts education help you pursue lives of leadership and service? (Jeanne-Marie Ryan)	
+Feb. 9		Complete revised project plan
+Feb. 12 – 5	Present draft of plan to external partner 	During this week, presentations to external partners may or may not occur during scheduled class time, depending on schedules.
+Feb. 14	Discuss and incorporate feedback	
+Feb. 16		Liberal arts paper #1 due
+Feb. 19 – 6	Begin project work; continues through April, with regular check-ins with external partner	Each project has unique milestones
+Feb. 21		
+Feb. 23		
+Feb. 26 – 7		
+Feb. 28		
+Mar. 2		
+Mar. 5 – 8	Spring Break – no class
+Mar. 7	
+Mar. 9	
+Mar. 12 – 9		
+Mar. 14		
+Mar. 16		Mid-project evaluation
+Mar. 19 – 10		
+Mar. 21		
+Mar. 23		
+Mar. 26 – 11		
+Mar. 28		
+Mar. 30		
+Apr. 2 – 12	Easter Break – no class
+Apr. 4		
+Apr. 6		
+Apr. 9 – 13		
+Apr. 11		
+Apr. 13		
+Apr. 16 – 14		
+Apr. 18		
+Apr. 20		
+Apr. 23 – 15	Project presentations	During this week, final presentations to external partners may or may not occur during scheduled class time, depending on schedules.
+Apr. 25	Project presentations	
+Apr. 27	SWOT analysis of each project and product (yielding one-page summary for project handoff); peer evaluations	
+Apr. 30 – 16	How did your liberal arts education help and hinder the project?	
+May 2	Partner meeting @Hub: project handoff	
+May 4	Optional class day	
+May 7	Optional class day	Liberal arts paper #2 due
+
